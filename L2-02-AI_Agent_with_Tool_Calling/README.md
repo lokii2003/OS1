@@ -132,64 +132,6 @@ AI_Agent_with_Tool_Calling/
 └── uploads/                ← Uploaded images (created automatically)
 ```
 
----
-
-## 🚀 Installation
-
-### Prerequisites
-- Python 3.11 or higher
-- A Google Gemini API key ([Get one here](https://aistudio.google.com/apikey))
-
-### Step-by-Step Setup (Windows PowerShell)
-
-```powershell
-# 1. Navigate to the project folder
-cd "c:\Down\OS3\AI_Agent_with_Tool_Calling"
-
-# 2. Create a virtual environment
-python -m venv .venv
-
-# 3. Activate the virtual environment
-.\.venv\Scripts\Activate
-
-# 4. Install dependencies
-pip install -r requirements.txt
-
-# 5. Create your .env file from the template
-Copy-Item .env.example .env
-
-# 6. Edit .env and add your Gemini API key
-# Open .env in your editor and replace 'your_actual_api_key_here' with your actual key
-notepad .env
-```
-
----
-
-## ⚙️ Environment Setup
-
-Create a `.env` file with your API key (or copy from `.env.example`):
-
-```
-GEMINI_API_KEY=your_actual_api_key_here
-```
-
-> **Note:** Only `GEMINI_API_KEY` is needed. The model name is set in `agent.py`.
-
----
-
-## ▶️ How to Run
-
-```powershell
-# Make sure your virtual environment is activated
-.\.venv\Scripts\Activate
-
-# Run the Streamlit application
-streamlit run app.py
-```
-
-The app will open in your browser at `http://localhost:8501`.
-
----
 
 ## 🔄 How MCP Works
 

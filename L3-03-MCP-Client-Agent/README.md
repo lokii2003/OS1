@@ -96,43 +96,6 @@ MCP-Client-Agent/
 └── README.md
 ```
 
----
-
-## 🚀 Installation (Windows)
-
-### 1. Create Virtual Environment
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Set Up API Key
-
-1. Go to [Google AI Studio](https://aistudio.google.com/apikey) and create an API key
-
-2. Edit `.env` and paste your API key:
-   ```
-   GEMINI_API_KEY=your_actual_api_key_here
-   GEMINI_MODEL=gemini-2.5-flash
-   ```
-
-
-### 4. Run the App
-
-```bash
-streamlit run app.py
-```
-
-The app opens at `http://localhost:8501`
-
----
 
 ## 🧪 Test Queries
 
