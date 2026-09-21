@@ -107,64 +107,6 @@ LangChain-Based-Chatbot/
 └── README.md           # Project documentation
 ```
 
----
-
-## Requirements
-
-- Python 3.9+
-- Google Gemini API key ([Get one here](https://aistudio.google.com/apikey))
-
----
-
-### 1. Create a virtual environment
-
-```bash
-python -m venv .venv
-```
-
-Activate it:
-
-**Windows:**
-```bash
-.venv\Scripts\activate
-```
-
-**macOS/Linux:**
-```bash
-source .venv/bin/activate
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configure environment variables
-
-Copy the example file and add your API key:
-
-```bash
-copy .env.example .env
-```
-
-Edit `.env` and replace `your_api_key_here` with your actual Google API key:
-
-```env
-GOOGLE_API_KEY=your_actual_api_key
-MODEL_NAME=gemini-3.6-flash
-TEMPERATURE=0.7
-```
-
-### 4. Run the chatbot
-
-```bash
-streamlit run app.py
-```
-
-The app will open in your browser at `http://localhost:8501`.
-
----
 
 ## Sample Conversation
 
