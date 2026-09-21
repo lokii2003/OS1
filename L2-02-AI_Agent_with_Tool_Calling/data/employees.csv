@@ -1,0 +1,21 @@
+employee_id,name,department,salary,city
+1,Rahul Sharma,Data Science,95000,Mumbai
+2,Priya Patel,AI/ML,105000,Bangalore
+3,Amit Kumar,Engineering,85000,Delhi
+4,Sneha Gupta,Data Science,92000,Hyderabad
+5,Vikram Singh,Marketing,72000,Mumbai
+6,Ananya Reddy,AI/ML,110000,Bangalore
+7,Karthik Nair,Engineering,88000,Chennai
+8,Meera Joshi,HR,68000,Pune
+9,Arjun Das,Data Science,97000,Kolkata
+10,Pooja Mehta,Marketing,75000,Delhi
+11,Rohan Iyer,Engineering,91000,Bangalore
+12,Divya Sharma,AI/ML,102000,Hyderabad
+13,Suresh Babu,HR,65000,Chennai
+14,Neha Agarwal,Data Science,99000,Mumbai
+15,Rajesh Verma,Engineering,87000,Pune
+16,Kavitha Raman,Marketing,70000,Kolkata
+17,Arun Mishra,AI/ML,108000,Delhi
+18,Swati Desai,HR,67000,Mumbai
+19,Manish Tiwari,Data Science,94000,Bangalore
+20,Lakshmi Pillai,Engineering,90000,Chennai
