@@ -145,8 +145,8 @@ All three projects share one common `.venv`, one `requirements.txt`, one `.env`,
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/lokii2003/OS1.git
-cd OS1
+git clone https://github.com/lokii2003/OS3.git
+cd OS3
 ```
 
 ### 2. Create Virtual Environment
